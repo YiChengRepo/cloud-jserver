@@ -10,55 +10,61 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "company": {
-    "id": 1,
-    "name": "Apple",
-    "marketCap": 4500,
-    "subCompanies": [
-      {
-        "id": 2,
-        "name": "IMB",
-        "marketCap": 2300,
-        "subCompanies": [
-          {
-            "id": 4,
-            "name": "IMB-1",
-            "marketCap": 300
-          },
-          {
-            "id": 5,
-            "name": "IMB-2",
-            "marketCap": 400
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "HP",
-        "marketCap": 1030
-
-      },
-      {
-        "id": 6,
-        "name": "Amazon",
-        "marketCap": 3000
-      },
-      {
-        "id": 7,
-        "name": "Alibaba",
-        "subCompanies": [
-          {
-          "id": 8,
-          "name": "Ant financial",
-          "marketCap": 2000
-          },
-          {
-          "id": 9,
-          "name": "CaiNiao",
-          "marketCap": 30
-          }
-        ]
-      }
-    ]
-  }
+  "company": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "marketCap": 4500,
+      "subCompanies": [
+        {
+          "id": 2,
+          "name": "IMB",
+          "marketCap": 2300,
+          "subCompanies": [
+            {
+              "id": 4,
+              "name": "IMB-1",
+              "marketCap": 300
+            },
+            {
+              "id": 5,
+              "name": "IMB-2",
+              "marketCap": 400
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "HP",
+          "marketCap": 1030
+        },
+        {
+          "id": 6,
+          "name": "Amazon",
+          "marketCap": 3000
+        },
+        {
+          "id": 7,
+          "name": "Alibaba",
+          "subCompanies": [
+            {
+              "id": 8,
+              "name": "Ant financial",
+              "marketCap": 2000
+            },
+            {
+              "id": 9,
+              "name": "CaiNiao",
+              "marketCap": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Google",
+      "marketCap": 30
+    }
+  ]
 }
